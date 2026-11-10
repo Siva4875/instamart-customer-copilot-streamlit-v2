@@ -1,0 +1,91 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local database
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+
+# Agent runtime checkpoints
+state/*.json
+
+# Temporary test databases
+outputs/*.db
+
+# Temporary test artifacts
+outputs/duplicate_test.db
+
+# Python test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Local project backups
+backup_before_full_run_*/
+*_backup.py
+*_bak.py
+*_bak.ipynb
+
+# Local project backups
+backup_before_full_run_*/
+*_backup.py
+*_bak.py
+*_bak.ipynb
+
+# Duplicate local notebook data
+notebooks/data/
+
+# Selected Part D checkpoint evidence
+!state/S1_CRASH_RESUME_SAFE_20261103.json
+!state/S7_LOOP_SAFE_TEST.json
+!state/TOKEN_LIMIT_SAFE_TEST.json
+!state/TIMEOUT_SAFE_TEST.json
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Agent execution logs and refund transaction history
+outputs/agent_runs.jsonl
+outputs/refund_ledger.jsonl
+
+# Runtime state and checkpoint files
+state/*.json
+state/*.json.bak
+
+# Local test and execution artifacts
+outputs/triage_budget_demo.csv
+
+
+# Local documentation and dependency backups
+README_original_backup.md
+requirements_backup.txt
+*_backup.md
